@@ -1,0 +1,1 @@
+{ "name": "cache-alarm", "version": "0.1.0", "description": "Warns 10 minutes before the prompt cache goes cold, so the next message stays cheap" }

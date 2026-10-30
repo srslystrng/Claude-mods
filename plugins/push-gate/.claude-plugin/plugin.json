@@ -1,0 +1,1 @@
+{ "name": "push-gate", "version": "0.1.0", "description": "Blocks git push to main until type-check, tests and the client-script scan pass" }

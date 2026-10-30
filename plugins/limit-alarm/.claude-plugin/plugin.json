@@ -1,0 +1,1 @@
+{ "name": "limit-alarm", "version": "0.1.0", "description": "Pops up when the 5-hour or 7-day usage limit passes 80% and 95%" }

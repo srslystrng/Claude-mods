@@ -1,0 +1,1 @@
+{ "name": "deploy-watch", "version": "0.1.0", "description": "After a push to main, tells you when the new Cloudflare build is live" }

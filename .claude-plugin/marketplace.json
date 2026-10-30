@@ -1,0 +1,11 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "Keith Hansen" },
+  "plugins": [
+    { "name": "usage-band", "source": "./plugins/usage-band", "description": "Usage band above the prompt: 5h/7d limits, prompt-cache warm/cold timer, context size, next-message cost per model" },
+    { "name": "cache-alarm", "source": "./plugins/cache-alarm", "description": "Warns 10 minutes before the prompt cache goes cold" },
+    { "name": "limit-alarm", "source": "./plugins/limit-alarm", "description": "Pops up when the 5-hour or 7-day limit passes 80% and 95%" },
+    { "name": "push-gate", "source": "./plugins/push-gate", "description": "Blocks git push to main until type-check, tests and the client-script scan pass" },
+    { "name": "deploy-watch", "source": "./plugins/deploy-watch", "description": "After a push to main, tells you when the new Cloudflare build is live" }
+  ]
+}

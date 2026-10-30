@@ -1,0 +1,1 @@
+{ "name": "usage-band", "version": "0.1.0", "description": "Usage band above the prompt: 5h/7d limits, prompt-cache warm/cold timer, context size, and what the next message costs on each model", "types": "./types/index.d.ts" }
